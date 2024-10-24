@@ -1,0 +1,47 @@
+javaScript (JS) ek high-level, dynamic programming language hai jo 
+web development mein sabse zyada use hoti hai. 
+Yeh language web browsers mein run hoti
+
+
+var
+Scope: Function-scope hota hai, yani agar var kisi function ke andar declare kiya gaya hai to woh sirf us
+ function ke andar accessible hoga. 
+Agar block (e.g., if ya for loop) 
+ke andar use kiya gaya hai, to wo block ke bahar bhi accessible hota hai.
+
+function 
+
+specific task ya action perform karta hai
+Arrow functions allow us to write shorter function syntax:
+js event 
+
+onclick
+onchange
+onload
+onkeydown
+onmouseout
+onmouseover
+
+scope 
+{
+  let x = 2;
+}
+// x can NOT be used here
+
+JavaScript Classes are templates for JavaScript Objects.
+
+
+JavaScript mein promises asynchronous operations ko handle karne ka ek tarika hoti hain.
+Yeh ek object hota hai jo future mein kisi value ko represent karta hai
+Promise ke Teen States:
+Pending: Yeh wo initial state hai jab promise create hota hai aur abhi tak resolve ya reject nahi hota.
+Fulfilled: Jab promise successfully complete hota hai aur result milta hai.
+Rejected: Jab promise fail ho jata hai aur error aata hai.
+
+
+async function JavaScript mein ek special type ka function hota hai jo asynchronous code ko handle karne ke liye use hota hai.
+
+async/await
+jo function promise return karta hai waha use hota hai 
+
+Closure ek aisa function hota hai jo apne surrounding scope ke variables ko "yaad" rakhta hai
