@@ -45,3 +45,47 @@ async/await
 jo function promise return karta hai waha use hota hai 
 
 Closure ek aisa function hota hai jo apne surrounding scope ke variables ko "yaad" rakhta hai
+
+
+    React ///
+
+Feature  	     Function Components	 Class Components
+Syntax	             Simple function	     JavaScript class
+State Management	Hooks (useState, useReducer, etc.)	this.state
+Lifecycle Methods	Hooks (useEffect)	Lifecycle methods (componentDidMount, etc.)
+Performance	     Generally more performant	Slightly less performant
+Readability	     More readable	More verbose
+
+
+useEffect hook ko componentDidMount, componentDidUpdate, aur componentWillUnmount jaisa kaam karne ke liye use kiya jata hai.
+
+compo didmount 
+componentDidMount React ka ek lifecycle method hai jo class-based components mein use hota hai.
+jab html sab kuch ready hojaiga us ka bad
+sab sa pehla constructor call hoga us ka bad render phir componentdidmount call hoga 
+kaha use hota hai jab hum api ko call karta 
+
+
+Constructor: State ko initialize karne ke liye.
+Render: UI ko display karne ke liye.
+componentDidMount: API se data fetch karne ke liye jab component DOM mein ho.
+
+
+
+Component did update jab chala ga jab koi cheeze update hogi state prop etc
+
+
+
+
+onstructor()      	Initial state aur props set karna	        Component create hone par setup
+componentDidMount()	Component mount hone par call hota hai	        API calls ya subscriptions setup
+componentDidUpdate()	Props ya state update hone par call hota hai	Side effects handle karna
+componentWillUnmount()	Component remove hone se pehle call hota hai	Clean-up tasks 
+
+
+<!-- Enumration enum -->
+ 
+By default, enums will initialize the first value to 0 and add 1 to each additional value:
+ek special data type hai jo aapko named constants ke group ko define karna mai madad deta hai 
+
+
