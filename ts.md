@@ -230,3 +230,81 @@ function abc(a:string = 'haseeb'){
   let abc : 'Haseeb' | 12
   abc = 'vsdvs'
 
+<!-- Generics  -->
+
+jab huma kuch asa function bna na hota hai jis ko huma bar bar use karna hota hai 
+jab hum call karta hai to bta deta hai hum string bhaj raha hai ya phir number 
+
+
+<!-- Utility Types -->
+
+//  Partial
+
+Partial ek utility type hai jo object type ki saari properties ko optional bana deta hai.
+
+interface User {
+    name: string 
+    age: number
+}
+
+
+let user : Partial< User> = {
+    name : 'haseeb',
+}
+
+
+/// REQUIRED 
+Required utility type Partial ka ulta hai — ye saari properties ko required bana deta hai. Agar koi property optional ho tab bhi 
+interface User {
+    name: string 
+    age?: number
+}
+
+
+let user : Required< User> = {
+    name : 'haseeb',
+    age : 12
+}
+
+
+
+// Pick
+Yeh type hum tab use karte hain jab humein kisi object type ki sirf kuch specific properties chahiyein hoti hain, aur baqi properties ko ignore karna ho.
+
+
+
+interface User {
+    name: string
+    age: number
+    email: string
+    number: number
+}
+
+type UserDeatil = Pick<User , 'name' | 'email' >
+
+let user: UserDeatil = {
+    name: 'haseeb',
+    email : 'haseebhgedc'
+}
+
+
+
+
+Omit
+
+Omit ka kaam Pick ka opposite hai — ye selected properties ko remove kar deta hai   aur baaki value ko add kar data hai.
+
+interface User {
+    name: string
+    age: number
+    email: string
+    number: number
+}
+
+type UserDeatil = Omit<User ,'age' >
+
+let user: UserDeatil = {
+    name: 'haseeb',
+    email : 'haseebhgedc',
+    number : 12324
+}

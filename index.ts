@@ -149,18 +149,35 @@
 
 //  function abc(a:string, b?:number){
 //     console.log(a,b);
-    
+
 //  }
 //  abc('haseeb',12)
 
 // function abc(a:string = 'haseeb'){
 //     console.log(a);
-    
+
 //  }
 //  abc()
 
 
-let num : number = 12
- let n : string = num.toString()
- console.log(n);
- 
+// let num : number = 12
+//  let n : string = num.toString()
+//  console.log(n);
+
+
+// let fun =<T> (data : T): T =>{
+//     return data
+// }
+
+
+// let num = fun<Number>(12)
+// let strin = fun<String>('12')
+// console.log(num,strin);
+
+
+function abc <T>(a :T) {
+    console.log(a);
+    
+}
+  
+abc<String>('Haseb')
