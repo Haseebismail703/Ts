@@ -308,3 +308,24 @@ let user: UserDeatil = {
     email : 'haseebhgedc',
     number : 12324
 }
+
+
+<!-- Assertion type -->
+
+type asertion mean huma type script sa zyada pta hai ka variable ki type kya hai last mai semicolen lagana zarori hai 
+let a : any = 12;
+
+(a as string).lastIndexOf
+
+
+let a : any = 12;
+
+(<string>a).concat
+
+
+<!-- type casting -->
+
+type change hota hai agar string hoga tab bhi 
+let number : any = Number('12')
+console.log(number);  
+

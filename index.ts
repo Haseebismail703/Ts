@@ -175,9 +175,13 @@
 // console.log(num,strin);
 
 
-function abc <T>(a :T) {
-    console.log(a);
+// function abc <T>(a :T) {
+//     console.log(a);
     
-}
+// }
   
-abc<String>('Haseb')
+// abc<String>('Haseb')
+
+
+let number : any = Number('12')
+console.log(number);
