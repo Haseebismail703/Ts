@@ -52,8 +52,10 @@ abc()
 
 <!-- Enumration enum -->
  
+
 By default, enums will initialize the first value to 0 and add 1 to each additional value:
 ek special data type hai jo aapko named constants ke group ko define karna mai madad deta hai 
+ kisi bhi specific values ka set define karta hai 
 enum human {
     x = 0,
     y = 10,
@@ -84,7 +86,7 @@ singal nhi hota balka obj ki sorat mai hota like schema
 
 
 <!-- interface  -->
-class or object ka interface bna ka data hai 
+class or object ka interface bna kar data hai 
 interface sa hum log murge kar sakta hai jo ka type mai hum nhi karsakta hai 
 ak fark ya hai interface mai equal = nhi ata hai 
 <!-- example -->
@@ -328,4 +330,5 @@ let a : any = 12;
 type change hota hai agar string hoga tab bhi 
 let number : any = Number('12')
 console.log(number);  
+ok 
 
