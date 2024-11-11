@@ -1,0 +1,19 @@
+raect js ki library hai 
+react js user interface bnana ka lya use hota hia aur  single-page applications
+
+jsx js xml 
+huma allow karta hai js mai  html likhna 
+bable ki madad sa hum isa transpiler karka browser per bhajta hai 
+
+React Components
+function component hota hia jo html return karta hai 
+
+prop 
+prop ak component sa dosra component mai data bhajna ka kaam karta hai 
+
+Hooks 
+React mein hooks special functions hain jo functional components ko React ki features (jaise state aur lifecycle methods) ka access deti hain.
+
+useState state ko manage kaarna ka lya use hota hai 
+useEffect side effect perform karna ka lya use hota hai 
+useContext globaly States ko mange karna ka lya use karta hai 
