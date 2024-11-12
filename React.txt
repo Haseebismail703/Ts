@@ -40,3 +40,37 @@ function compoent
 simple function hota hai jo hooks ka use karka state aue lifecycle method handle karta hai.
 Class component 
 Class components ko ES6 classes ka use karte huye banaya jata hai aur yeh lifecycle methods aur state handling ko in-built support dete hain. 
+
+
+Feature  	     Function Components	                                Class Components
+Syntax	             Simple function	                              JavaScript class
+State Management	Hooks (useState, useReducer, etc.)	               this.state
+Lifecycle Methods	Hooks (useEffect)	Lifecycle methods (componentDidMount, etc.)
+Performance	     Generally more performant	Slightly less performant
+Readability	     More readable	More verbose
+
+
+useEffect hook ko componentDidMount, componentDidUpdate, aur componentWillUnmount jaisa kaam karne ke liye use kiya jata hai.
+
+compo didmount 
+componentDidMount React ka ek lifecycle method hai jo class-based components mein use hota hai.
+jab html sab kuch ready hojaiga us ka bad
+sab sa pehla constructor call hoga us ka bad render phir componentdidmount call hoga 
+kaha use hota hai jab hum api ko call karta 
+
+
+Constructor: State ko initialize karne ke liye.
+Render: UI ko display karne ke liye.
+componentDidMount: API se data fetch karne ke liye jab component DOM mein ho.
+
+
+
+Component did update jab chala ga jab koi cheeze update hogi state prop etc
+
+
+
+
+Constructor()      	Initial state aur props set karna	        Component create hone par setup
+componentDidMount()	Component mount hone par call hota hai	        API calls ya subscriptions setup
+componentDidUpdate()	Props ya state update hone par call hota hai	Side effects handle karna
+componentWillUnmount()	Component remove hone se pehle call hota hai	Clean-up tasks 
