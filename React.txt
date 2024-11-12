@@ -6,7 +6,7 @@ huma allow karta hai js mai  html likhna
 bable ki madad sa hum isa transpiler karka browser per bhajta hai 
 
 React Components
-function component hota hia jo html return karta hai 
+function component hota ha jo html return karta hai 
 
 prop 
 prop ak component sa dosra component mai data bhajna ka kaam karta hai 
@@ -20,9 +20,14 @@ useContext globaly States ko mange karna ka lya use karta hai
 useRef hook huma  values ko persist karne mai madad deta hai.
 example state jab update hota hai to comp rerender hota hai lkn useref mai comp rerender nhi hota hai 
 It can be used to access a DOM element directly.
-useReducer  jo state management ke liye use hota hai, khaas tor par jab state kaafi complex ho, ya jab ek hi action ke through multiple state updates karne ki zarurat ho.  
-
-
+useReducer  jo state management ke liye use hota hai, khaas tor par jab  complex logic ka lya use hota hai aur jab ek hi action ke through multiple state updates karne ki zarurat ho.  
+useCallback   
+useCallback ek memoized function ko return karta hai jo props ke changes hone par hi recreate hota hai. Iska istemal tab hota hai jab aapko kisi function ko child component mein pass karna ho aur unnecessary re-renders ko avoid karna ho.
+useMenmo memoize value ko return karta hai 
+strict mode react ka ek too hai jo development mode mai problem ko detect karta hai 
+Yeh production mein render nahi hota aur sirf development mein visible hota hai.
+Custom hooks 
+jo hooks hum react mai use kar raha hai usa use karta hwa naya hook bnana 
 
 
 Controlled components
@@ -70,7 +75,7 @@ Component did update jab chala ga jab koi cheeze update hogi state prop etc
 
 
 
-Constructor()      	Initial state aur props set karna	        Component create hone par setup
-componentDidMount()	Component mount hone par call hota hai	        API calls ya subscriptions setup
-componentDidUpdate()	Props ya state update hone par call hota hai	Side effects handle karna
-componentWillUnmount()	Component remove hone se pehle call hota hai	Clean-up tasks 
+Constructor()      	    Initial state aur props set karna	                Component create hone par setup
+componentDidMount()	    Component mount hone par call hota hai	            API calls ya subscriptions setup
+componentDidUpdate()	Props ya state update hone par call hota hai	    Side effects handle karna
+componentWillUnmount()	Component remove hone se pehle call hota hai	    Clean-up tasks 
