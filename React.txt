@@ -15,5 +15,28 @@ Hooks
 React mein hooks special functions hain jo functional components ko React ki features (jaise state aur lifecycle methods) ka access deti hain.
 
 useState state ko manage kaarna ka lya use hota hai 
-useEffect side effect perform karna ka lya use hota hai 
+useEffect side effect perform karna ka lya use hota hai ya DOM manipulations.
 useContext globaly States ko mange karna ka lya use karta hai 
+useRef hook huma  values ko persist karne mai madad deta hai.
+example state jab update hota hai to comp rerender hota hai lkn useref mai comp rerender nhi hota hai 
+It can be used to access a DOM element directly.
+useReducer  jo state management ke liye use hota hai, khaas tor par jab state kaafi complex ho, ya jab ek hi action ke through multiple state updates karne ki zarurat ho.  
+
+
+
+
+Controlled components
+Controlled components wo hote hain jinki state React ke control mein hoti hai, jaise input, textarea, etc 
+uncontrolled components native DOM ke control mein hote hain aur ref ka istemal karte hain data ko access karne ke liye. 
+
+
+Higher Order Components (HOC) 
+HOC wo functions hain jo ek component ko lete hain aur ek naya component return karte hain.
+Virtual DOM
+Virtual DOM ek lightweight copy hoti hai jo changes ko track karne aur update karne mein madadgar hoti hai.
+
+
+function compoent 
+simple function hota hai jo hooks ka use karka state aue lifecycle method handle karta hai.
+Class component 
+Class components ko ES6 classes ka use karte huye banaya jata hai aur yeh lifecycle methods aur state handling ko in-built support dete hain. 
