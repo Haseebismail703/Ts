@@ -57,3 +57,6 @@ callBack function wo function hota hai jo kisi dusre function ko argument mein p
 setTimeout kuch time ka bad code ko execute karta hai 
 setInterval after a time bar bar code ko run kara ga  
 
+
+
+

@@ -23,7 +23,7 @@ It can be used to access a DOM element directly.
 useReducer  jo state management ke liye use hota hai, khaas tor par jab  complex logic ka lya use hota hai aur jab ek hi action ke through multiple state updates karne ki zarurat ho.  
 useCallback   
 useCallback ek memoized function ko return karta hai jo props ke changes hone par hi recreate hota hai. Iska istemal tab hota hai jab aapko kisi function ko child component mein pass karna ho aur unnecessary re-renders ko avoid karna ho.
-useMenmo memoize value ko return karta hai 
+useMenmo memoize value ko return karta hai  ya calculation mai use hota hai aur ya Performance ko optimize bhi karta hai 
 strict mode react ka ek too hai jo development mode mai problem ko detect karta hai 
 Yeh production mein render nahi hota aur sirf development mein visible hota hai.
 Custom hooks 
@@ -71,7 +71,7 @@ componentDidMount: API se data fetch karne ke liye jab component DOM mein ho.
 
 
 Component did update jab chala ga jab koi cheeze update hogi state prop etc
-
+shouldComponentUpdate  ya bolean return karta hai agar true return kara ga to comp render hoga agar false to render nhi hoga 
 
 
 
@@ -79,3 +79,38 @@ Constructor()      	    Initial state aur props set karna	                Compon
 componentDidMount()	    Component mount hone par call hota hai	            API calls ya subscriptions setup
 componentDidUpdate()	Props ya state update hone par call hota hai	    Side effects handle karna
 componentWillUnmount()	Component remove hone se pehle call hota hai	    Clean-up tasks 
+
+
+map ek naya array return karta hai 
+forEach 1 para  kuch bhi return nhi karta hai 
+some()  every() includes() bolean value return karta hai aur is mai condition lagti hai  1 parameter lata hai 
+sort() sort karka lata hai 
+
+
+all topic 
+
+React.js  
+JSX (JavaScript XML)
+React Components
+Props 
+Hooks
+useState
+useEffect 
+useContext
+useRef
+useReducer 
+useCallback
+useMemo
+Strict Mode
+Custom Hooks
+Controlled Components
+Uncontrolled Components
+Higher Order Components (HOC) 
+Virtual DOM 
+Function Component
+Class Component
+Comparison: Function vs. Class Components
+useEffect Hook 
+ComponentDidMount
+Lifecycle Methods Summary
+
