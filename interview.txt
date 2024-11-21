@@ -46,12 +46,16 @@ async/await kaha use hota hai
 jo function promise return karta hai waha use hota hai 
 
 
-Promise.all() ek method hai jo multiple promises ko parallel execute karta hai. Jab saare promises resolve ho jate hain, tab result array return hota hai.
+Promise.all() JavaScript ka ek built-in method hai jo
+
+ek array me diye gaye saare promises ko ek saath execute karta hai. 
+
+Ye tabhi resolve hota hai jab array me diye gaye saare promises successfully resolve ho jaate hain, aur agar koi ek bhi promise reject ho, to ye reject ho jaata hai.
 
 Closure ek aisa function hota hai jo apne surrounding scope ke variables ko "yaad" rakhta hai
 
 
-callBack function wo function hota hai jo kisi dusre function ko argument mein pass kiya jata hai aur wo dusra function apni execution complete hone par callback ko call karta hai.
+Callback function ek aisi function hoti hai jo dusre function ke argument ke taur par pass hota hai aur baad me usko call kiya jata hai. Ye ek higher-order function ke concept par based hai, jisme ek function doosre function ko call karta hai.
 
 
 setTimeout kuch time ka bad code ko execute karta hai 

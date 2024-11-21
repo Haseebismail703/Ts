@@ -183,5 +183,21 @@
 // abc<String>('Haseb')
 
 
-let number : any = Number('12')
-console.log(number);
+// let number : any = Number('12')
+// console.log(number);
+
+
+
+function outerFunction(outerVariable  : string) {
+    return function innerFunction(innerVariable : string) {
+        console.log(`Outer Variable: ${outerVariable}`);
+        console.log(`Inner Variable: ${innerVariable}`);
+    };
+}
+
+const newFunction = outerFunction('Hello'); // outerVariable = 'Hello'
+newFunction('World'); // innerVariable = 'World'
+
+// Output:
+// Outer Variable: Hello
+// Inner Variable: World
