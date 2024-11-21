@@ -45,10 +45,10 @@ async function JavaScript mein ek special type ka function hota hai jo asynchron
 async/await kaha use hota hai 
 jo function promise return karta hai waha use hota hai 
 
+
 Promise.all() ek method hai jo multiple promises ko parallel execute karta hai. Jab saare promises resolve ho jate hain, tab result array return hota hai.
 
 Closure ek aisa function hota hai jo apne surrounding scope ke variables ko "yaad" rakhta hai
-
 
 
 callBack function wo function hota hai jo kisi dusre function ko argument mein pass kiya jata hai aur wo dusra function apni execution complete hone par callback ko call karta hai.
