@@ -1,1 +1,3 @@
 express js node js ka framwork hai jo hama server side routing ko handle karna mia madad deta hai aur hum is sa restful apis bnata hai 
+
+Middleware wo function hote hain jo request aur response ke beech chalaye jaate hain.
