@@ -67,3 +67,28 @@ setInterval after a time bar bar code ko run kara ga
 
 
 
+string method 
+
+length check karta hai 
+toLowerCase()  sab ko small kar data hai 
+toUpperCase() sab ko bara kardata hai  
+trim() String ke start aur end ke whitespace remove karta hai.
+ // includes("hello") check karta hai ka string varibale mai hai ya nhi aur boleaen return karta hai 
+hello world  indexOf('hello world')  // 6  index check  karta hai
+hello world startsWith("hello") check karta hai ka hello sa shro hoota hai ya nhi return bolean karta hai 
+hello world endWith("world") check karta hai ka hello sa shro hoota hai ya nhi return bolean karta hai 
+hello world substring(6) string ko copy karta hai   
+replace("hello world" , "hello pakistan") replace karta hai 
+split(",") string ko divide karka array bnata hai 
+charAt(2) string ka index btao character bta dega 
+concat()  Strings ko join karta hai.
+example 
+const str1 = "Hello";
+const str2 = "World";
+console.log(str1.concat(" ", str2)); // "Hello World"
+
+repeat() string ko repeate karta hai 
+const str = "Hi ";
+console.log(str.repeat(3)); // "Hi Hi Hi"
+
+toString() number ko string mai convert karta hai  

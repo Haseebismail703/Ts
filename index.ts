@@ -201,3 +201,4 @@ newFunction('World'); // innerVariable = 'World'
 // Output:
 // Outer Variable: Hello
 // Inner Variable: World
+
