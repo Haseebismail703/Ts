@@ -40,6 +40,9 @@ Fulfilled: Jab promise successfully complete hota hai aur result milta hai.
 Rejected: Jab promise fail ho jata hai aur error aata hai.
 
 
+sync mai code line by line execute hota hai yani ak sath code chalta hai 
+kuch task asa hota hai jis mai time lagta hai waha per  async use karta hai 
+
 async function JavaScript mein ek special type ka function hota hai jo asynchronous code ko handle karne ke liye use hota hai.
 
 async/await kaha use hota hai 
