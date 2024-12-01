@@ -202,3 +202,5 @@ newFunction('World'); // innerVariable = 'World'
 // Outer Variable: Hello
 // Inner Variable: World
 
+let a : number = 123
+a.toLocaleString

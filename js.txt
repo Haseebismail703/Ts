@@ -92,3 +92,30 @@ const str = "Hi ";
 console.log(str.repeat(3)); // "Hi Hi Hi"
 
 toString() number ko string mai convert karta hai  
+
+
+
+
+Number type 
+
+toFixed()
+Number ko fixed decimal places ke saath round karta hai. agar 12.2567 hoga to toFixed(2)  12.56 
+round kardag 
+toPrecision()
+ya start sa number ko fixed karta hai 
+
+
+valueof() kisi bhi value maloom karta koi bhi hon varibale object array ya phir string
+
+parsInt() 
+without decimal value return karta hai yani agr var mai "12.234" hoga to 12 return kara ga 
+parsFloat() 
+ya pori value return kart ahi
+
+isFinite()
+ya check karta hai ka number hai ya nhi chaya wo string ho ya number mai hon to ya true return kara ga 
+isInteger()
+Check karta hai ki number integer hai ya nahi.
+
+tolocalstring()
+ya number mai coma laga deta hai 12323 => 12,23,234 is tarah 
