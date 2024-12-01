@@ -124,3 +124,4 @@ Math.round aga lajaiga 0.5 ko 1 kardaga
 math.ceil aga lagaiga 2.2 ko 3 kara ga 
 math.floor pecj laiga 1.9 ko 1 kara ga 
 Math.abs() negative ko positve mai convert kara ga 
+Math.random() random value genrate kara ga 
