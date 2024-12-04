@@ -204,3 +204,6 @@ newFunction('World'); // innerVariable = 'World'
 
 let a : number = 123
 a.toLocaleString
+
+let branch : string = "sdfsdf"
+console.log(branch);

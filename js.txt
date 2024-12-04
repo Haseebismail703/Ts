@@ -120,7 +120,7 @@ Check karta hai ki number integer hai ya nahi.
 tolocalstring()
 ya number mai coma laga deta hai 12323 => 12,23,234 is tarah 
 
-Math.round aga lajaiga 0.5 ko 1 kardaga 
+Math.round aga lajaiga 0.5 ko 1 kardaga
 math.ceil aga lagaiga 2.2 ko 3 kara ga 
 math.floor pecj laiga 1.9 ko 1 kara ga 
 Math.abs() negative ko positve mai convert kara ga 
