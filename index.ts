@@ -202,9 +202,10 @@ newFunction('World'); // innerVariable = 'World'
 // Outer Variable: Hello
 // Inner Variable: World
 
-let a : number = 123
-a.toLocaleString
 
-let pull : string = "sdfsdf"
-console.log(pull);
+function newone (){
+    console.log("commit a");
+    
+}
+newone()
 
