@@ -208,3 +208,5 @@ a.toLocaleString
 let pull : string = "sdfsdf"
 console.log(pull);
 
+let pull2 : string = "sdfsdf"
+console.log(pull);
