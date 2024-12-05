@@ -114,3 +114,16 @@ useEffect Hook
 ComponentDidMount
 Lifecycle Methods Summary
 
+Array method 
+
+contack : 2 array ko merge karta  hai 
+join : array ka ander kuch bhi karna hon wo huhm jioin ki madad sa karta hai
+sort : array order wise print karta hai meaning 2314 ko 12345 
+
+hight order array methods							
+filter : array ko filter karta hai based upon condition 
+map : new array return karta hai 
+foreach :  kuch return nhi karta 
+reduce :  single value retrun karta hai prev value ko curent value kath opertaion perform karta hai or deafult value bhi lata hai aur iska index 1 sa start hota hai 
+fill : nasted array ko single array mai convert karta hai 
+
