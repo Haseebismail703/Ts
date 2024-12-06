@@ -125,3 +125,20 @@ math.ceil aga lagaiga 2.2 ko 3 kara ga
 math.floor pecj laiga 1.9 ko 1 kara ga 
 Math.abs() negative ko positve mai convert kara ga 
 Math.random() random value genrate kara ga 
+
+
+
+
+loop 
+for in loop  => object ko print karna ka lya use hota hai 
+
+
+
+Addeventlistner ak listner hai jo html per event lagana ka kaam ata hai => click, mouseover, keydown, etc.
+html mai class add karna ka lya class list ka use karta hai classlist.add() jitni marzi classes add karo priority last class ko milti hai
+
+classlist.toggle() add aur remove karta hai 
+
+// traversal => ka matlab kisi bhi element ka child ko ya parent ko target karna ka lya ya method use hota hai  
+parentElement => child ka parent ko target karna ka lya use hota hai agar koi parent nhi to null return karta hai 
+parentNode => same hai lkn parent nhi hoga to #document return kara ga  
