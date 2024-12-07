@@ -162,6 +162,8 @@ a.append(para)
 var b = document.getElementById("teg")
 b.insertBefore(a,b.childNodes[0])
 
+hasatribute() check kara ga ka attribute hai ya nhi agr hoga to true return kara ga nhi to false 
+hasachildNode() check kara ga ka parent ka child  hai ya nhi agr hoga to true return kara ga  nhi to false 
 
 
 
