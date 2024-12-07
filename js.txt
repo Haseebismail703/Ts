@@ -142,3 +142,27 @@ classlist.toggle() add aur remove karta hai
 // traversal => ka matlab kisi bhi element ka child ko ya parent ko target karna ka lya ya method use hota hai  
 parentElement => child ka parent ko target karna ka lya use hota hai agar koi parent nhi to null return karta hai 
 parentNode => same hai lkn parent nhi hoga to #document return kara ga  
+chldren[1] index daker bhi accces kar sakta hai  => children ko target karna ka lya use hota hai 
+childNode[1] => children ko btata hai agar comment hoga to comment bhi btai ga aur space ko text btaiga 
+firstChild lastChild child ko acces kara ga 
+
+
+
+createElement => teg create kara ga 
+createText => teg ka ander ka text create kara gay
+createComment => comment create kara ga 
+append child => jo js mai teg craete kya hai aur text create kya hai usa merge karta hai aur ya lst mai ayega aur agar first mai dekhana hai insertbefore ka use kara ga 
+
+let a = document.createElement("h1")
+
+let para = document.createTextNode("This is paragraph")
+
+a.append(para)
+
+var b = document.getElementById("teg")
+b.insertBefore(a,b.childNodes[0])
+
+
+
+
+
