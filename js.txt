@@ -137,7 +137,6 @@ for in loop  => object ko print karna ka lya use hota hai
 Addeventlistner ak listner hai jo html per event lagana ka kaam ata hai => click, mouseover, keydown, etc.
 html mai class add karna ka lya class list ka use karta hai classlist.add() jitni marzi classes add karo priority last class ko milti hai
 
-classlist.toggle() add aur remove karta hai 
 
 // traversal => ka matlab kisi bhi element ka child ko ya parent ko target karna ka lya ya method use hota hai  
 parentElement => child ka parent ko target karna ka lya use hota hai agar koi parent nhi to null return karta hai 
@@ -163,8 +162,13 @@ var b = document.getElementById("teg")
 b.insertBefore(a,b.childNodes[0])
 
 hasatribute() check kara ga ka attribute hai ya nhi agr hoga to true return kara ga nhi to false 
-hasachildNode() check kara ga ka parent ka child  hai ya nhi agr hoga to true return kara ga  nhi to false 
+hasachildNode() check kara ga ka parent ka child  hai ya nhi agr hoga to true return kara ga  nhi to false
 
 
 
+element.setAttribute("id", "newId"); // Add ID
+element.removeAttribute("id");      // Remove ID
+element.classList.add('new-class'); // Add class
+element.classList.remove('old-class'); // Remove class
+classlist.toggle() add aur remove karta hai 
 
