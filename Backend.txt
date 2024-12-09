@@ -13,3 +13,9 @@ error code
 401  unauthorized
 404  Not Found 
 500  internel server error 
+200 succes
+
+Restful api frontend ko backend sa connect karna ka lya api ka use karta hai 
+
+
+HyperText Transfer Protocol.Ye ek protocol hai jo web servers aur clients (browsers) ke beech data exchange karne ke liye use hota hai.
