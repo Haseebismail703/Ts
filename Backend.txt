@@ -1,3 +1,15 @@
 express js node js ka framwork hai jo hama server side routing ko handle karna mia madad deta hai aur hum is sa restful apis bnata hai 
 
 Middleware wo function hote hain jo request aur response ke beech chalaye jaate hain.
+
+Cors error ///
+ek error hai jab bhi hum backend sa response bhajta hai to browser usko check karta hai ka ak alag domain sa response arraha hai to wo usa blick kar data hai 
+
+Mongoose ///
+ek ODM  object document mapper hai jo  MongoDB ke documents ko objects ke saath map karne ke liye use hoti hai.
+
+error code 
+400  bad req
+401  unauthorized
+404  Not Found 
+500  internel server error 
