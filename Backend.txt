@@ -14,8 +14,13 @@ error code
 404  Not Found 
 500  internel server error 
 200 succes
-
-Restful api frontend ko backend sa connect karna ka lya api ka use karta hai 
+ 
+Restful api frontend ko backend sa connect karna ka lya api ka use karta hai  
 
 
 HyperText Transfer Protocol.Ye ek protocol hai jo web servers aur clients (browsers) ke beech data exchange karne ke liye use hota hai.
+
+Indexes MongoDB me ek tarika hai jo data ko jaldi dhoondhne me madad karta hai. Yeh ek shortcut ki tarah kaam karta hai, taki poore data ko check karne ki zarurat na ho.
+
+
+
