@@ -24,7 +24,7 @@ useReducer  jo state management ke liye use hota hai, khaas tor par jab  complex
 useCallback   
 useCallback ek memoized function ko return karta hai jo props ke changes hone par hi recreate hota hai. Iska istemal tab hota hai jab aapko kisi function ko child component mein pass karna ho aur unnecessary re-renders ko avoid karna ho.
 useMenmo memoize value ko return karta hai  ya calculation mai use hota hai aur ya Performance ko optimize bhi karta hai 
-strict mode react ka ek too hai jo development mode mai problem ko detect karta hai 
+strict mode react ka ek tool hai jo development mode mai problem ko detect karta hai 
 Yeh production mein render nahi hota aur sirf development mein visible hota hai.
 Custom hooks 
 jo hooks hum react mai use kar raha hai usa use karta hwa naya hook bnana 
@@ -117,7 +117,7 @@ Lifecycle Methods Summary
 Array method 
 
 contack : 2 array ko merge karta  hai 
-join : array ka ander kuch bhi karna hon wo huhm jioin ki madad sa karta hai
+join : array ka ander kuch bhi karna hon wo hum join ki madad sa karta hai
 sort : array order wise print karta hai meaning 2314 ko 12345 
 
 hight order array methods							
