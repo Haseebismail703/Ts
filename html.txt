@@ -6,3 +6,8 @@ visibility hidden dom sa hide hojata hia lkn apni jagah ghara rakhta hai
 table tr th td 
 js mai loops code ko repeat karna ka lya use karta hai 
 use strickt huma error btana ka kaam karta hai aur hamarya code ko strickly check karta hai 
+
+meta teg html ka head mai use hota hai aur meta data  wo information hai jo webpage ke baare mein search engines aur browsers ko batati hai, 
+
+Block element wo element hota hai  jo apni width pori lata hai 
+inline element wo element hai jo apna content jitni width lata hai 
