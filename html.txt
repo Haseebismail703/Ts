@@ -1,0 +1,8 @@
+Doctype html mai hum version btana ka lya use karta hai 
+Data attributes html mai custom data store karna ka lya use hota hai aur javascript ka zarya hum isa acces kar sakta hai 
+Svg html ka teg jis ka through hum web pages per graphics drow karna ka lya use karta hai  
+display none dom sa hide hojata hai aur 
+visibility hidden dom sa hide hojata hia lkn apni jagah ghara rakhta hai 
+table tr th td 
+js mai loops code ko repeat karna ka lya use karta hai 
+use strickt huma error btana ka kaam karta hai aur hamarya code ko strickly check karta hai 
