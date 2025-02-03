@@ -41,6 +41,11 @@ Virtual DOM
 Virtual DOM ek lightweight copy hoti hai jo changes ko track karne aur update karne mein madadgar hoti hai.
 
 
+synthetic event 
+onClick
+onChnage
+etc 
+
 function compoent 
 simple function hota hai jo hooks ka use karka state aue lifecycle method handle karta hai.
 Class component 
