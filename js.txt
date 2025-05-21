@@ -172,3 +172,28 @@ element.classList.add('new-class'); // Add class
 element.classList.remove('old-class'); // Remove class
 classlist.toggle() add aur remove karta hai 
 
+
+
+
+
+
+
+// event loop
+
+event loop js ka ak system hai jo asyn operation ko handle karta hai ya multiple task ko perform karta hai 
+
+js single threded language hai jo one by one code ko execute karta hai
+ yani sync operation ko perform karta hai lkn kuch task asa hota hai jo time lata hai 
+
+
+Sabse pehle synchronous code run hota hai (jo line by line call stack mein aata hai).
+
+Jab code mein fetch ya setTimeout jaise asynchronous functions aate hain, to wo Web APIs ko handle karne ke liye de diye jate hain.
+
+Web APIs apna kaam background mein karte hain (jaise timer chalana, network request bhejna).
+
+Jab ye asynchronous kaam complete ho jata hai, tab uska callback callback queue mein chala jata hai.
+
+Event loop continuously check karta hai ki call stack khaali hai ya nahi.
+
+Jab call stack khaali hota hai, tab event loop callback queue se callback uthata hai aur call stack mein daal deta hai taake wo execute ho jaye.
