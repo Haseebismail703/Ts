@@ -136,7 +136,7 @@ console.log(b.id);
 }
                       //classes 
 
-object  ka blueprint ya phir template keh lata hai 
+object  ka blueprint ya phir template keh saka hai 
 hama object bar bar bna na nhi parta                     
 bar bar hum isa use kar sakt ahi 
 Agar hama similar type ke objects banane ho, to class use karna acha hota hai taake code baar baar likhna na pare.
